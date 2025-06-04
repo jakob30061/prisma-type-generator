@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Automatically generate Typescript enums from you prisma schema",
   "main": "dist/index.js",
-  "repository": "https://github.com/jakob30061/prisma-type-generator.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakob30061/prisma-type-generator.git"
+  },
   "author": "jakob30061",
   "license": "GPL-3.0-only",
   "keywords": [
@@ -23,7 +26,6 @@
     "README.md",
     "package.json"
   ],
-
   "type": "module",
   "scripts": {
     "start": "node dist/index.js",
